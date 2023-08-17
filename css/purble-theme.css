@@ -1,0 +1,28 @@
+/*start the purble-theme*/
+.scroll-top,
+.btn-danger,
+.dropdown-menu .divider,
+.navbar-default .navbar-nav > .active > a,
+.dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+     background-color: rebeccapurple;
+}
+.about h1 span,
+.our-services h4,
+.footer span,
+.about h3 span,
+.testmoniales .item span,
+.navbar-inverse .navbar-brand span{
+    color: rebeccapurple
+}
+
+.testmoniales .carousel-indicators .active
+{
+   border: 2px solid rebeccapurple;
+}
+.carousel-indicators .active{
+    border:1px solid rebeccapurple;
+    background-color: rebeccapurple;
+    
+}
+/*end the colors*/

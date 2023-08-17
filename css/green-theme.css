@@ -1,0 +1,28 @@
+/*start the green-theme*/
+.scroll-top,
+.btn-danger,
+.dropdown-menu .divider,
+.navbar-default .navbar-nav > .active > a,
+.dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+     background-color: forestgreen;
+}
+.about h1 span,
+.our-services h4,
+.footer span,
+.about h3 span,
+.testmoniales .item span,
+.navbar-inverse .navbar-brand span{
+    color: forestgreen
+}
+
+.testmoniales .carousel-indicators .active
+{
+   border: 2px solid forestgreen;
+}
+.carousel-indicators .active{
+    border:1px solid forestgreen;
+    background-color: forestgreen;
+    
+}
+/*end the colors*/

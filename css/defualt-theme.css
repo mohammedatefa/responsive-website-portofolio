@@ -1,0 +1,30 @@
+/*start the defualt-theme*/
+.btn-danger,
+.scroll-top,
+.dropdown-menu .divider,
+.navbar-default .navbar-nav > .active > a,
+.dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+     background-color: #e41b17;
+}
+
+.about h1 span,
+.our-services h4,
+.footer span,
+.about h3 span,
+.testmoniales .item span,
+.navbar-inverse .navbar-brand span
+{
+    color: #e41b17
+}
+
+.testmoniales .carousel-indicators .active
+{
+   border: 2px solid #e41b17;
+}
+.carousel-indicators .active{
+    border:1px solid #e41b17;
+    background-color: #e41b17;
+    
+}
+/*end the colors*/

@@ -1,0 +1,83 @@
+/*start media query*/
+@media(max-width:768px)
+{
+    
+    .carousel-control.left,
+    .carousel-control.right{
+        display: none;
+    }
+    .carousel-inner > .item > img, .carousel-inner > .item > a > img{
+        max-height: 260px;
+    }
+    .navbar-inverse .navbar-nav > li > a{
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header{
+        padding-top: 10px;
+    }
+    .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{
+        max-height: none;
+    }
+    h1{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    h3,h2,h4{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    p{
+        font-size: 16px;
+    }
+    
+    .features .feat h4{
+        font-size: 20px;
+    }
+    .features .feat p{
+        font-size: 16px;   
+    }
+    .prices-table .price h2{
+        font-size: 24px;
+    }
+    .prices-table .price ul li{
+        font-weight: 500
+    }
+    .prices-table h1{
+        font-size: 24px
+    }
+    .subscribe h1{
+        font-size: 30px
+    }
+    .subscribe .form-control{
+        margin: 10px auto;
+        widows: 400px;
+    }
+    .subscribe .btn{
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+    .our-skills .skills .progress .progress-bar{
+        font-size: 14px;
+    }
+    .clients h1{
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    .our-skills h1{
+        font-size: 30px;
+    }
+    .our-services .img-thumbnail{
+        width: 45%;
+        padding: 12px;
+        padding-left: 0px;
+    }
+    .scroll-top{
+        width: 45px;
+        height: 40px;
+        padding-top: 10px;
+        font-size: 25px;
+        padding: 8px 10px;
+    }
+}
+/*end media query*/
